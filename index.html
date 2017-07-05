@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<meta name="description" content="Личная страница портфолио">
+	<title>Алексей Шлайков</title>
+	<link rel="manifest" href="manifest.json">
+	<!-- Fallback to homescreen for Chrome <39 on Android -->
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="application-name" content="Portfolio">
+	<meta name="keywords" content="Алексей Шлайков, веб-разработчик, личный сайт, портфолио, Alexey Shlaikov, web-developer, python, django, создание сайтов">
+	<link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+	<!-- Add to homescreen for Safari on iOS -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="apple-mobile-web-app-title" content="Portfolio">
+	<link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+	<!-- Tile icon for Win8 (144x144 + tile color) -->
+	<meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+	<meta name="msapplication-TileColor" content="#2ecc71">
+	<meta name="msapplication-config" content="none">
+	<!-- You can customize the default -->
+	<meta name="theme-color" content="#2ecc71">
+	<link rel="canonical" href="http://shlaikov.github.io/portfolio">
+	<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+	<link rel="stylesheet" href="styles/font-awesome.min.css">
+	<link rel="stylesheet" href="styles/main.css" />
+	<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+</head>
+
+<body>
+
+	<div id="wrapper">
+		<header id="header" class="alt">
+			<span class="logo"><img class="img-circle" style="width: 120px; border-radius: 50%;" src="images/avatar.png" alt="Алексей Шлайков" /></span>
+			<h1>Портфолио</h1>
+			<div class="dots">
+				<div class="circ1"></div>
+				<div class="circ2"></div>
+				<div class="circ3"></div>
+				<div class="circ4"></div>
+			</div>
+		</header>
+		<nav id="nav">
+			<ul>
+				<li><a href="/"><i class="fa fa-home" aria-hidden="true"></i> Главная</a></li>
+				<li><a href="#intro" class="active"><i class="fa fa-briefcase" aria-hidden="true"></i> Мои работы</a></li>
+				<li><a href="https://github.com/shlaikov" target="_blank"><i class="fa fa-github" aria-hidden="true"></i> GitHub</a></li>
+				<li><a href="docs/resume.pdf" download target="_blank"><i class="fa fa-download" aria-hidden="true"></i> Скачать Резюме</a></li>
+			</ul>
+		</nav>
+		<div id="main">
+			<section id="intro" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Многостраничный сайт<br>для компании "БИГ"</h2>
+						</header>
+						<p>Красивый и рациональный корпоративный сайт. Изначально проект задумывался на Wordpress, потом как-то руководство и
+							заказчик решили, что нужно делать на 1С-Bitrix. В итоге, заказчик узнал, что он далеко не бесплатный и мне пришлось
+							написать свой набольшой <a href="https://github.com/shlaikov/php-engine_template" target="_blank">PHP-движок</a>.
+							Получилось довольно неплохо и адаптивно.</p>
+						<ul class="actions">
+							<li><a href="http://big-projekt.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+						<p class="footnote"><span>*</span> Я завершил работу над этим проектом в марте 2017 года, кто сделал эти косяки по вёрстке - не знаю.<br>Желающим,
+							могу открыть доступ репозитория в BitBucket. Там заключительная версия моего проекта.</p>
+					</div>
+					<span class="image"><img src="images/cases/big.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Сайт для регистрации<br>участников форума.</h2>
+						</header>
+						<p>Сайт был написан не мной, в далёком 2013 году, как указано в одном JS файле, причём какой-то старый платный шаблон.
+							Старый разработчик пропал, порекомендовали меня старые знакомые. Работа заключалась не только в разработке регистрации
+							участников, но и системном администрировании на всём протяжении этого форума.</p>
+						<ul class="actions">
+							<li><a href="http://ent-congress.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/polyforum.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Интернет-бутик<br>по продаже женских платков.</h2>
+						</header>
+						<p>Очередной проект на PHP. Начинал не я, полностью переделывать на любой python-фреймворк не хотелось из-за готовой "php"-вёрстки.</p>
+						<ul class="actions">
+							<li><a href="http://platky-rf.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/platky.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main special">
+				<header class="major">
+					<h2>Проекты с открытым исходным кодом</h2>
+				</header>
+				<ul class="features">
+					<li>
+						<span class="image"><img src="images/cases/custom-dropdown.jpg" width="200" alt="" /></span>
+						<h3>Кастомный "DropDown List"<br>на AngularJS</h3>
+						<p>Простой кастомный DOM-элемент. Опыт оформления репозитория.</p>
+						<a href="https://github.com/shlaikov/custom-dropdown" target="_blank" class="button">Посмотреть проект</a>
+					</li>
+					<li>
+						<span class="image"><img src="images/cases/codeplayer.jpg" width="200" alt="" /></span>
+						<h3>CodePlayer<br> с подсветкой кода</h3>
+						<p>IDE, которую написал мой друг, я форкнул - сделал<br>другую реализацию.</p>
+						<a href="https://github.com/shlaikov/CodePlayer" target="_blank" class="button">Посмотреть проект</a>
+					</li>
+					<li>
+						<span class="image"><img src="images/cases/django-minify-url.jpg" width="200" alt="" /></span>
+						<h3>Django-minify-url<br>сокращение ссылок</h3>
+						<p>Реализация сокращения ссылок на стороне сервера<br>с записью в БД.</p>
+						<a href="https://github.com/shlaikov/django-minify-url" target="_blank" class="button">Посмотреть проект</a>
+					</li>
+				</ul>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Посадочная страница на Python/Django</h2>
+						</header>
+						<p>Бред, но факт!<br>Данный проект писал на Django с целью развернуть его от "лендоса" c админкой до интернет-магазина.
+							Сам магазин сейчас в разработке. Желающим, могу открыть доступ в приватный репозиторий на BitBucket.</p>
+						<ul class="actions">
+							<li><a href="http://boat-spareparts.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/boatoil.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Интернет-магазин<br>для спортивных товаров</h2>
+						</header>
+						<p>Отличный многостраничный сайт по продаже товаров для спорта. Много труда и сил в него вложенно мной. Данный проект
+							разрабатывался на отечественном движке 1C-Bitrix. Очень полезный опыт в программировании на PHP, никогда в жизни не
+							разбирал так код и архитектуру чего-либо.</p>
+						<ul class="actions">
+							<li><a href="https://2xu-russia.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/2xu-store.png" alt="shlaikov store" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Конвертер OST в PST</h2>
+						</header>
+						<p>Частично сервеное решение, как оказалось, у компаний случаются и такие проблемы.<br>В пректе учтены все пожелания заказчика
+							по адаптивности и кроссбраузерности. Как оказалось трафика было больше с мобильного сегмента. Для кроссбраузерности
+							очень много пришлось играть с JS. Первый проект с drag'n'drop функционалом.</p>
+						<ul class="actions">
+							<li><a href="http://ost2pst.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/ost2pst.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Сайт для агенства по аренде<br>комерческой недвижимости</h2>
+						</header>
+						<p>Начал работать как "Front-End" разработчик, писал клиентскую часть на AngularJS, поиска для старого сайта. Немного
+							писал новый сайт на Django. Именно тут мне показали все прелести ORM. Закодил логику поиска по категориям, многому
+							научился, хоть и работадатель обманул.</p>
+						<ul class="actions">
+							<li><a href="http://getlooky.ru/" target="_blank" class="button">Посмотреть работу</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/getlooky.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main special">
+				<header class="major">
+					<h2>Расширение для браузера<br>Mozilla Firefox</h2>
+					<p>Изначально разрабатывалось для личного пользования, на Firefox не было аналогов,<br>сделал из этого "Open Source" проект
+						на GitHub,<br>но по некоторым юридическим причинам расширение удалили из магазина.</p>
+				</header>
+				<span class="image"><img src="images/cases/adblock.png" width="400" alt="VK-AdBlock"/></span>
+				<footer class="major">
+					<ul class="actions">
+						<li><a href="https://github.com/shlaikov/vk-adblock" target="_blank" class="button">Посмотреть на GitHub</a></li>
+					</ul>
+				</footer>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Портал для поиска молодых сотрудников "YOUNGSTART"</h2>
+						</header>
+						<p>Первый большой проект разработанный мной для заказчика. Стержнем является Wordpress, много различных плагинов и самописных
+							компонентов, которые работают на боли и костылях. Проект уже не существует, я называл его "маленький HH". Чудным образом
+							он у меня остался и я его загрузил на BitBucket.</p>
+						<ul class="actions">
+							<li><a href="mailto:shlaikov.alexey@ya.ru?Subject=Заявка%20BitBucket%20YOUNGSTART" target="_top" class="button">Получить доступ</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/youngstart.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Посадочные страницы<br>для "Home Hotel"</h2>
+						</header>
+						<p>Работал с парнями из "БМ", учтены все их прохоти, написал несколько сайтов для них. Первый реальный опыт с PHP. Закодил
+							крутой калькулятор в продакшен для реального бизнеса и он работал, считал и даже красиво выглядел. Сейчас он у меня
+							лежит на приватном репозитории, проект дорог как память.</p>
+						<ul class="actions">
+							<li><a href="mailto:shlaikov.alexey@ya.ru?Subject=Заявка%20BitBucket%20HomeHotel" target="_top" class="button">Получить доступ</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/home-hotel.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>Посадочные страницы<br>для "Восковые ручки"</h2>
+						</header>
+						<p>На этом я учился писать полноценные сайты для реального бизнеса. Для этой компании было написано с десяток сайтов.
+							Первые API("Bitrix24", "GetResponse"), отправление заявок на корпоративную почту,<br>A/B тестирование c маркетологом.</p>
+						<ul class="actions">
+							<li><a href="mailto:shlaikov.alexey@ya.ru?Subject=Заявка%20BitBucket%20WaxHands" target="_top" class="button">Получить доступ</a></li>
+						</ul>
+					</div>
+					<span class="image"><img src="images/cases/wax-hands.png" alt="" /></span>
+				</div>
+			</section>
+
+			<section id="cta" class="main special">
+				<header class="major">
+					<h2>Для сотрудничества</h2>
+					<p>Если есть какие-то вопросы - я всегда готов помочь.<br>Напишите мне на почту, будем сотрудничать.</p>
+				</header>
+				<footer class="major">
+					<ul class="actions">
+						<li><a href="mailto:shlaikov.alexey@ya.ru?Subject=Сотрудничество" target="_top" class="button special">Написать сообщение</a></li>
+						<li><a href="https://github.com/shlaikov" target="_blank" class="button">Ссылка на GitHub</a></li>
+					</ul>
+				</footer>
+			</section>
+		</div>
+
+		<footer id="footer">
+			<p style="color:#fff;">Авторские права© 2015 - 2017<br>Алексей Шлайков.<br>Все права защищены.</p>
+			<ul class="icons">
+				<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+				<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+				<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+				<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+				<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+			</ul>
+			<p class="copyright" style="color:#fff;">Сделано с <i class="fa fa-heart"></i> в Санкт-Петербурге.</p>
+		</footer>
+
+	</div>
+
+
+	<script src="scripts/jquery.min.js"></script>
+	<script src="scripts/jquery.scrollex.min.js"></script>
+	<script src="scripts/jquery.scrolly.min.js"></script>
+	<script src="scripts/skel.min.js"></script>
+	<script src="scripts/util.js"></script>
+	<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+
+	<script>
+		new WOW().init();
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r;
+			i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date();
+			a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0];
+			a.async = 1;
+			a.src = g;
+			m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+		ga('create', 'UA-97001057-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+
+	<script src="scripts/main.js"></script>
+
+</body>
+
+</html>
