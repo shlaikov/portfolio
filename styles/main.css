@@ -3083,14 +3083,14 @@ body.is-loading #wrapper #nav {
 }
 
 #wrapper #nav {
-     -moz-transition: opacity 5s ease;
-    -webkit-transition: opacity 5s ease;
-    -ms-transition: opacity 5s ease;
-    transition: opacity 5s ease;
-    -moz-transition-delay: 0.2s;
-    -webkit-transition-delay: 0.2s;
-    -ms-transition-delay: 0.2s;
-    transition-delay: 0.2s;
+     -moz-transition: opacity 3s ease;
+    -webkit-transition: opacity 3s ease;
+    -ms-transition: opacity 3s ease;
+    transition: opacity 3s ease;
+    -moz-transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s;
     opacity: 1 !important;
 }
 
