@@ -3046,6 +3046,18 @@ table.alt tbody tr td {
     color: #2c3e50;
 }
 
+body.is-loading #header.alt>* {
+    opacity: 0;
+}
+
+body.is-loading #main {
+    opacity: 0 !important;
+}
+
+body.is-loading #wrapper #nav {
+    opacity: 0 !important;
+}
+
 #header.alt>* {
     -moz-transition: opacity 3s ease;
     -webkit-transition: opacity 3s ease;
@@ -3056,6 +3068,37 @@ table.alt tbody tr td {
     -ms-transition-delay: 0.5s;
     transition-delay: 0.5s;
     opacity: 1;
+}
+
+#main {
+    -moz-transition: opacity 1s ease;
+    -webkit-transition: opacity 1s ease;
+    -ms-transition: opacity 1s ease;
+    transition: opacity 1s ease;
+    -moz-transition-delay: 0.1s;
+    -webkit-transition-delay: 0.1s;
+    -ms-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+    opacity: 1 !important;
+}
+
+#wrapper #nav {
+     -moz-transition: opacity 5s ease;
+    -webkit-transition: opacity 5s ease;
+    -ms-transition: opacity 5s ease;
+    transition: opacity 5s ease;
+    -moz-transition-delay: 0.2s;
+    -webkit-transition-delay: 0.2s;
+    -ms-transition-delay: 0.2s;
+    transition-delay: 0.2s;
+    opacity: 1 !important;
+}
+
+body.is-loading #header.alt .logo {
+    -moz-transform: scale(0.8) rotate(-30deg);
+    -webkit-transform: scale(0.8) rotate(-30deg);
+    -ms-transform: scale(0.8) rotate(-30deg);
+    transform: scale(0.8) rotate(-30deg);
 }
 
 #header.alt .logo {
@@ -3132,25 +3175,11 @@ table.alt tbody tr td {
     }
 }
 
-body.is-loading #header.alt>* {
-    opacity: 0;
-}
-
-body.is-loading #header.alt .logo {
-    -moz-transform: scale(0.8) rotate(-30deg);
-    -webkit-transform: scale(0.8) rotate(-30deg);
-    -ms-transform: scale(0.8) rotate(-30deg);
-    transform: scale(0.8) rotate(-30deg);
-}
-
-
-/* Nav */
-
 #nav {
-    -moz-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-    -webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-    -ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-    transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    -moz-transition: border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    -webkit-transition: border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    -ms-transition: border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
+    transition: border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
     background-color: #ffffff;
     color: #636363;
     position: absolute;
